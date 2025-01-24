@@ -1,1 +1,1 @@
-autocmd BufRead,BufNewFile *.mod,*.dat,*.ampl,*.run set filetype=ampl
+autocmd BufRead,BufNewFile *.ampl,*.run,*.mod,*.dat set filetype=ampl
