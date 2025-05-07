@@ -118,12 +118,12 @@ return {
         group = latex_group,
         callback = function()
           -- Set up local mappings for LaTeX files
-          vim.keymap.set("n", "<leader>lc", "<cmd>LatexClean<CR>", { buffer = true, desc = "Clean auxiliary files" })
-          vim.keymap.set("n", "<leader>lt", "<cmd>VimtexTocToggle<CR>", { buffer = true, desc = "Toggle TOC" })
-          vim.keymap.set("n", "<leader>lv", "<cmd>VimtexView<CR>", { buffer = true, desc = "View PDF" })
-          vim.keymap.set("n", "<leader>ll", "<cmd>VimtexCompile<CR>", { buffer = true, desc = "Compile document" })
-          vim.keymap.set("n", "<leader>ls", "<cmd>VimtexStop<CR>", { buffer = true, desc = "Stop compilation" })
-          vim.keymap.set("n", "<leader>le", "<cmd>VimtexErrors<CR>", { buffer = true, desc = "Show errors" })
+          --          vim.keymap.set("n", "<leader>lc", "<cmd>LatexClean<CR>", { buffer = true, desc = "Clean auxiliary files" })
+          --          vim.keymap.set("n", "<leader>lt", "<cmd>VimtexTocToggle<CR>", { buffer = true, desc = "Toggle TOC" })
+          --          vim.keymap.set("n", "<leader>lv", "<cmd>VimtexView<CR>", { buffer = true, desc = "View PDF" })
+          --          vim.keymap.set("n", "<leader>ll", "<cmd>VimtexCompile<CR>", { buffer = true, desc = "Compile document" })
+          --          vim.keymap.set("n", "<leader>ls", "<cmd>VimtexStop<CR>", { buffer = true, desc = "Stop compilation" })
+          --          vim.keymap.set("n", "<leader>le", "<cmd>VimtexErrors<CR>", { buffer = true, desc = "Show errors" })
 
           -- Make sure spell checking is enabled for LaTeX files
           vim.opt_local.spell = true
