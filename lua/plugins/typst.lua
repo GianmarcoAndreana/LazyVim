@@ -38,7 +38,7 @@ return {
           single_file_support = true,
           settings = {
             exportPdf = "onType", -- live PDF export as you type :contentReference[oaicite:2]{index=2}
-            outputPath = "$dir/$name", -- see explanation below :contentReference[oaicite:3]{index=3}
+            outputPath = "$root/$dir/$name", -- see explanation below :contentReference[oaicite:3]{index=3}
             preview = {
               background = {
                 enabled = true,
